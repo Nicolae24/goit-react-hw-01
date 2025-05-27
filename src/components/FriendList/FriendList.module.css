@@ -1,0 +1,54 @@
+/* .friendList {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.friendListItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  border: 2px solid #201e1e;
+} */
+
+/* .friendList {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.friendListItem {
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+}
+
+.friendListItem:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+} */
+
+.friendList {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 0;
+  margin: 40px auto;
+  list-style: none;
+}
+
+.friendListItem {
+  margin: 0;
+}

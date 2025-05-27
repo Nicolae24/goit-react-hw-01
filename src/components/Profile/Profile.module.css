@@ -1,0 +1,75 @@
+.profileCard {
+  max-width: 320px;
+  margin: 30px auto;
+  background: linear-gradient(to bottom right, #f0f4ff, #ffffff);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: "Segoe UI", sans-serif;
+  color: #333;
+  transition: 0.3s ease;
+}
+
+.profileCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  background-color: #ffffff;
+}
+
+.profileImage {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 4px solid #4caf50;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.profileName {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.profileTag,
+.profileLocation {
+  font-size: 14px;
+  color: #777;
+  margin: 2px 0;
+}
+
+.statsList {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eef2ff;
+  padding: 15px 20px;
+  list-style: none;
+  margin: 0;
+  border-top: 1px solid #ddd;
+}
+
+.statsItem {
+  flex: 1;
+  text-align: center;
+}
+
+.statsLabel {
+  display: block;
+  font-size: 13px;
+  color: #888;
+}
+
+.statsValue {
+  font-size: 17px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 5px;
+}

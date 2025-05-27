@@ -1,0 +1,34 @@
+.table {
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto;
+  border-collapse: collapse;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.tableHead {
+  background-color: #4f46e5;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.table th,
+.table td {
+  padding: 14px 20px;
+  text-align: center;
+}
+
+.tableRow:nth-child(even) {
+  background-color: #f3f4f6;
+}
+
+.tableRow:hover {
+  background-color: #e0e7ff;
+  transition: background-color 0.2s ease;
+}
